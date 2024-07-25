@@ -3,7 +3,7 @@ local M = {}
 function M.keymap(buf)
 	local ops = { silent = true, buffer = buf }
 
-	vim.g.mapleader = " "
+	vim.g.mapleader = ","
 
 	-- Default
 	vim.keymap.set("i", "<C-c>", "<esc>", ops)

@@ -79,8 +79,8 @@ function M.kanban_create(ops)
 	end
 	M.items = {}
 	M.items.lists = {
-		{ title = "TODO", tasks = {} },
-		{ title = "Work in progress", tasks = {} },
+		{ title = "Backlog", tasks = {} },
+		{ title = "In Progress", tasks = {} },
 		{ title = "Done", tasks = {} },
 		{ title = "Archive", tasks = {} },
 	}
